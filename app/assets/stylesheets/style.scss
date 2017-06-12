@@ -1102,14 +1102,14 @@ body {
     left: 0;
     width: 100%;
     height: 310px;
-    background: url(images/background/t1.png) no-repeat; }
+    background: asset-data-url(t1) no-repeat; }
   .kopa-area-1 .t2 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 310px;
-    background: url(images/background/t2.png) no-repeat; }
+    background: asset-data-url(t2) no-repeat; }
 
 .kopa-area-2 {
   background: url(http://placehold.it/4397x2974) local 50% 50%;
@@ -3976,7 +3976,7 @@ address {
   padding: 4px; }
 
 .sync4.style1, .style1.owl-carousel-7, .style1.owl-carousel-8, .style1.owl-carousel-9 {
-  background: url("images/background/black_twill.png"); }
+  background: asset-data-url("black_twill.png"); }
 
 /*--- article-list-1 ---*/
 .kopa-article-list-widget {
@@ -4439,7 +4439,7 @@ address {
 
 /*--- kopa-social-tab-widget ---*/
 .kopa-social-tab-widget {
-  background: url(images/background/black_twill.png) !important;
+  background: asset-data-url(black_twill) !important;
   padding: 19px 15px; }
   .kopa-social-tab-widget .widget-title {
     color: #fff; }
