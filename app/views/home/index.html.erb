@@ -87,7 +87,9 @@
                 <nav class="kopa-main-nav">
                     <ul class="main-menu sf-menu">
                         <li class="current-menu-item">
-                            <a href="#"><span>Home</span></a>
+                            <%= link_to root_path do %>
+                              <span>Home</span>
+                            <% end %>
                             <ul class="sub-menu">
                                 <li class="current-menu-item">
                                     <a href="index1.html">Home Style 1</a>

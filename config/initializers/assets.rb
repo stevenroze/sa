@@ -12,7 +12,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-
+# Rails.application.config.assets.precompile += %w( jquery.mCustomScrollbar.css )
 Rails.application.config.assets.precompile += %w( bootstrap.css )
 Rails.application.config.assets.precompile += %w( font-awesome.css )
 Rails.application.config.assets.precompile += %w( superfish.css )
@@ -22,7 +22,6 @@ Rails.application.config.assets.precompile += %w( owl.carousel.css )
 Rails.application.config.assets.precompile += %w( owl.theme.css )
 Rails.application.config.assets.precompile += %w( style.css )
 Rails.application.config.assets.precompile += %w( bootstrap.js )
-Rails.application.config.assets.precompile += %w( jquery.mCustomScrollbar.js )
 Rails.application.config.assets.precompile += %w( jquery.navgoco.js )
 Rails.application.config.assets.precompile += %w( mCustomScrollbar.js )
 Rails.application.config.assets.precompile += %w( modernizr.custom.js )
