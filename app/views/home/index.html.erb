@@ -11,53 +11,61 @@
             <div class="col-sm-12 mainmenu_wrap"><div class="main-menu-icon visible-xs"><span></span><span></span><span></span></div>
             <ul id="mainmenu" class="menu sf-menu responsive-menu superfish">
                 <li class="active">
-                    <a href="./">Home</a>
+                    <%= link_to "home", root_path %>
                 </li>
                 <li class="dropdown">
-                    <a href="./classes.html">Classes</a>
+                    <a href="./classes.html">Sports</a>
                     <ul class="dropdown-menu">
                         <li class="">
-                            <a href="./classes.html">Classes</a>
+                            <a href="./classes.html">MLB</a>
                         </li>
                         <li class="">
-                            <a href="./class-single.html">Single Class</a>
+                            <a href="./class-single.html">NBA</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">NFL</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">NHL</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">Tennis</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">Futbol</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">Golf</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">Boxing</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">UFC</a>
                         </li>
                     </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="./classes.html">Media</a>
+                    <ul class="dropdown-menu">
+                        <li class="">
+                            <a href="./classes.html">Articles</a>
+                        </li>
+                        <li class="">
+                            <a href="./class-single.html">Podcasts</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="">
+                    <a href="./timetable.html">Fan Furnace</a>
                 </li>
                 <li class="">
-                    <a href="./timetable.html">Timetable</a>
+                    <a href="#">Donate</a>
                 </li>
                 <li class="dropdown">
-                    <a href="./trainers.html">Trainers</a>
-                    <ul class="dropdown-menu">
-                        <li class="">
-                            <a href="./trainers.html">Trainers</a>
-                        </li>
-                        <li class="">
-                            <a href="./trainer-single.html">Single Trainer</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="./404.html">Pages</a>
-                    <ul class="dropdown-menu">
-                        <li class="">
-                            <a href="./blog.html">Blog</a>
-                        </li>
-                        <li class="">
-                            <a href="./blog-single.html">Blog Post</a>
-                        </li>
-                        <li class="">
-                            <a href="./shortcodes.html">Shortcodes</a>
-                        </li>
-                        <li class="">
-                            <a href="./404.html">404</a>
-                        </li>
-                        <li class="">
-                            <a href="./icons.html">Icons</a>
-                        </li>
-
-                    </ul>
+                    <a href="./404.html">Who We Are</a>
                 </li>
                 <li class="">
                     <a href="./contact.html">Contact</a>
@@ -65,7 +73,6 @@
 
             </ul>
         </div>
-
     </div></div>
 </header>
 
@@ -109,13 +116,13 @@
             <div class="col-sm-12">
                 <ul class="nav nav-tabs nav-justified main-tab">
                     <li class="active">
-                        <a data-toggle="tab" class="slide1" href="#1">Gym &amp; Fitness</a>
+                        <a data-toggle="tab" class="slide1" href="#1">Recent News</a>
                     </li>
                     <li class="">
-                        <a data-toggle="tab" class="slide2" href="#2">Outdoor Sports</a>
+                        <a data-toggle="tab" class="slide2" href="#2">Latest Podcast</a>
                     </li>
                     <li class="">
-                        <a data-toggle="tab" class="slide3" href="#3">Yoga &amp; Pilates</a>
+                        <a data-toggle="tab" class="slide3" href="#3">Fan Furnace</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -561,27 +568,6 @@
 </section><!-- #slide_tabs -->
 
 
-
-
-<section id="info" class="dark_section bg_image">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h1>Awesome Theme</h1>
-                <h3>for <strong><span class="highlight">Sports Club</span></strong> &amp; <strong><span class="highlight">Multi-Purpose</span></strong> Websites</h3>
-                <p>
-                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.
-                </p>
-                <p>
-                    <a href="#" class="theme_btn">Know More</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
 <section id="events" class="darkgrey_section">
     <div class="container">
         <div class="row">
@@ -668,274 +654,7 @@
     </div>
 </section>
 
-
-<section id="classes" class="color_section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h2 class="block-header"><strong>Trainer</strong>&amp;Classes</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-
-                <!--vertical slider -->
-                <div class="vertical-slider">
-                    <div class="slide media darkgrey_section">
-                        <a href="#" class="pull-left">
-                            <%= image_tag( "trainer-vertical1.jpg", class: "media-object" ) %>
-                        </a>
-
-                        <div class="media-body">
-                            <h3>CJ Jones</h3>
-                            <p><a href="class-single.html">Bascetball</a></p>
-                            <p>Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet.</p>
-                            <p class="team-social">
-                                <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                                <a class="socialico-facebook" href="#" title="Facebook">#</a>
-                                <a class="socialico-google" href="#" title="LinkedIn">#</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="slide media light_section">
-                        <a href="#" class="pull-left">
-                            <%= image_tag( "trainer-vertical2.jpg", class: "media-object" ) %>
-                        </a>
-
-                        <div class="media-body">
-                            <h3>Jennifer Beyer</h3>
-                            <p><a href="class-single.html">Yoga &amp; Pilates</a></p>
-                            <p>Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet.</p>
-                            <p class="team-social">
-                                <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                                <a class="socialico-facebook" href="#" title="Facebook">#</a>
-                                <a class="socialico-google" href="#" title="LinkedIn">#</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="slide media darkgrey_section">
-                        <a href="#" class="pull-left">
-                            <%= image_tag( "trainer-vertical2.jpg", class: "media-object" ) %>
-                        </a>
-
-                        <div class="media-body">
-                            <h3>Samanta Fox</h3>
-                            <p><a href="class-single.html">Weight Training</a></p>
-                            <p>Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet.</p>
-                            <p class="team-social">
-                                <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                                <a class="socialico-facebook" href="#" title="Facebook">#</a>
-                                <a class="socialico-google" href="#" title="LinkedIn">#</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="slide media light_section">
-                        <a href="#" class="pull-left">
-                            <%= image_tag( "trainer-vertical1.jpg", class: "media-object" ) %>
-                        </a>
-
-                        <div class="media-body">
-                            <h3>Alex Smith</h3>
-                            <p><a href="class-single.html">Salsa &amp; Cha cha cha</a></p>
-                            <p>Stet clita kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit amet.</p>
-                            <p class="team-social">
-                                <a class="socialico-twitter" href="#" title="Twitter">#</a>
-                                <a class="socialico-facebook" href="#" title="Facebook">#</a>
-                                <a class="socialico-google" href="#" title="LinkedIn">#</a>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-                </div><!-- End of vertical slider -->
-            </div>
-
-            <div class="col-md-4">
-                <!-- collapse -->
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                    Gym &amp; Fitness
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <div class="panel-body">
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <%= image_tag( "top-face1.jpg", class: "media-object" ) %>
-                                    </a>
-                                    <div class="media-body">
-                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt enim eiusmod high life accusamus terry richardson.
-                                        <a href="class-single.html" class="theme_btn_small">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
-                                    Outdoor Sports
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <%= image_tag( "top-face5.jpg", class: "media-object" ) %>
-                                    </a>
-                                    <div class="media-body">
-                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt enim eiusmod high life accusamus terry richardson.
-                                        <a href="class-single.html" class="theme_btn_small">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
-                                    Yoga &amp; Pilates
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <%= image_tag( "top-face6.jpg", class: "media-object" ) %>
-                                    </a>
-                                    <div class="media-body">
-                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt enim eiusmod high life accusamus terry richardson.
-                                        <a href="class-single.html" class="theme_btn_small">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed">
-                                    Weight Training
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <%= image_tag( "top-face6.jpg", class: "media-object" ) %>
-                                    </a>
-                                    <div class="media-body">
-                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt enim eiusmod high life accusamus terry richardson.
-                                        <a href="class-single.html" class="theme_btn_small">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
-                                    Salsa &amp; Cha cha cha
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse5" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <%= image_tag( "top-face4.jpg", class: "media-object" ) %>
-                                    </a>
-                                    <div class="media-body">
-                                        Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt enim eiusmod high life accusamus terry richardson.
-                                        <a href="class-single.html" class="theme_btn_small">More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- eof collapse -->
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="prices" class="darkgrey_section last_content_section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h2 class="block-header"><strong>Membership</strong> Pricing</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
-                <ul class="pricing-table">
-                    <li class="plan-name"><p>One Day Training</p></li>
-                    <li class="plan-price"><span>9</span> <span>99</span> <p>Day</p></li>
-                    <li class="features-list">
-                        <ul>
-                            <li>Onetime access to all clubs</li>
-                            <li>Group Trainer</li>
-                            <li>Massage</li>
-                            <li>Fitness orientation</li>
-                        </ul>
-                    </li>
-                    <li class="call-to-action"><a href="#" class="theme_btn">Sign Up!</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <ul class="pricing-table style2">
-                    <li class="plan-name"><p>Standard Training</p></li>
-                    <li class="plan-price"><span>29</span> <span>99</span> <p>Month</p></li>
-                    <li class="features-list">
-                        <ul>
-                            <li>Group Classes</li>
-                            <li>Discuss Fitness Goals</li>
-                            <li>Group Trainer</li>
-                            <li>Fitness orientation</li>
-                        </ul>
-                    </li>
-                    <li class="call-to-action"><a href="#" class="theme_btn">Sign Up!</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-                <ul class="pricing-table">
-                    <li class="plan-name"><p>Total Access Training</p></li>
-                    <li class="plan-price"><span>59</span> <span>99</span> <p>Month</p></li>
-                    <li class="features-list">
-                        <ul>
-                            <li>Access to all clubs</li>
-                            <li>Massage</li>
-                            <li>Personal Trainer</li>
-                            <li>Acess 24/7</li>
-                        </ul>
-                    </li>
-                    <li class="call-to-action"><a href="#" class="theme_btn">Sign Up!</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section id="partners" class="dark_section">
+<!-- <section id="partners" class="dark_section">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -983,7 +702,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <footer id="footer" class="dark_section">
@@ -1045,7 +764,7 @@
         <div class="row">
 
             <div class="col-sm-12 text-center">
-                Copyright - Sports &amp; Life Template by <a href="http://modernwebtemplates.com">MW Templates</a>
+                Copyright - Hidden Mascot 2017
             </div>
         </div>
     </div>
